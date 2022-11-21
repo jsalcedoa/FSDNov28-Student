@@ -12,3 +12,4 @@ This almost all of the first week material.
 2. Possibly add an extra lab to Jenkins. 
 3. General proofreading and clean up.
 4. Add links to resources.
+5. Reformat Code management labs
