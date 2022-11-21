@@ -13,3 +13,4 @@ This almost all of the first week material.
 3. General proofreading and clean up.
 4. Add links to resources.
 5. Reformat Code management labs
+6. Redoing Maven and Spring lab
