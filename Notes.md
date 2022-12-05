@@ -106,4 +106,13 @@
 
 ---
 
-# Lunch
+## Dec 2 - Java
+
+- James Gosling on Youtube
+
+### Patterns
+- hillside.net
+- https://github.com/iluwatar/java-design-patterns
+
+#### Factory
+- Abstract product and abstract maker

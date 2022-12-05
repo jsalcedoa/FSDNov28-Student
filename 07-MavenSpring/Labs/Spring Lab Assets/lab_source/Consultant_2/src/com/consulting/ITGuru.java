@@ -1,5 +1,9 @@
-package consultant;
 
+package com.consulting;
+
+import org.springframework.stereotype.Component;
+
+@Component
 public class ITGuru implements Consultant {
 
 	@Override
@@ -7,5 +11,3 @@ public class ITGuru implements Consultant {
 		return "Turn it off and on again";
 	}
 }
-
-

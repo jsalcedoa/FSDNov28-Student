@@ -1,4 +1,5 @@
-package consultant;
+
+package com.consulting;
 
 public class PRWhiz implements Consultant {
 
@@ -7,4 +8,3 @@ public class PRWhiz implements Consultant {
 		return "Don't let them see you sweat";
 	}
 }
-
