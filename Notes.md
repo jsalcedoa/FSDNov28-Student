@@ -133,3 +133,87 @@
 
 - USA United States, Les etats unis, Untied States of America
 - Chili CHile
+
+---
+## Data
+
+- https://hibernate.org/orm/
+
+---
+
+## Doctor office apt app.
+
+- Create appointments for patients at a doctors office
+- provide upates to patients and doctors about the status
+- change the scheduling or other data of appoint
+
+
+- What are the domain objects?
+    - Schedule - Health Care "slate" 
+    - Health care worker - Nurse, Tech, DOctors (specialists, GP)
+    - Patients  - They are under our care
+    - Referral 
+    - Appointment
+        - Health care workers
+        - Patient
+        - Time and date
+
+- Slating microservice
+    - Managing the schedule of health care workers.
+    - slate for a health for a specific perios
+    - availability for a HCW for a period
+    - Is anyone available at a partical time who is allowed to see that patient (speciality)
+
+- Patient Management Mirco service
+    - fetch patient medical records
+    - update medical record
+    - add a new patient
+    - make patients inactive 
+
+- Appointments
+    - Transaction microservices
+    - Create an appointment(patient(s), HCW(s), time/date, duration, location)
+    - Cancel an appointment
+    - Modify an appointment
+    - Display appointment info
+
+- Reception microservice
+    - Message = appointment request.
+    - Comes from the user interface.
+    -
+
+### User stories
+
+1. Patient calls in to book an appointment, receptionst confirms they are a patient, asks for the reason, finds the right doctor and available time and date and confirms
+2. Docter requests an appointment
+3. Rec has to postpone and appointment or change doctor
+4. Patient has canceled
+
+### data design
+
+- Message to sent over REST inteface
+- List of messages
+- Appoointment, appointment request, slating request, insurance request.
+- How you write a validator to ensure these object
+
+### Dev design
+- Where are our git repos, what sort of branching would
+- Writing a production piple
+- How do we test this?
+- What are the processes in our app - different thread? 
+- Are any applicable design
+- What parts should go into docker containers?
+
+
+
+---
+
+## Data Service
+
+- Takes CRUD requests from an application 
+- Translates this into a data format appropriate for the implementation
+- Different models
+    - RDBM sytems - structured data is full defined by a schema - tabular form
+    - NoSQL - Semi-structed
+
+
