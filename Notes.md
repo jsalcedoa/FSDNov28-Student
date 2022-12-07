@@ -116,3 +116,20 @@
 
 #### Factory
 - Abstract product and abstract maker
+
+---
+
+## Spring Boot Playground
+
+- https://github.com/atharvasiddhabhatti/Springboot-Playground
+
+## Maven 
+- https://maven.apache.org/guides/getting-started/index.html
+
+## Jenkins 
+- https://www.jenkins.io/
+- the batch file is in c:\tools\Jenkins
+- https://www.jenkins.io/doc/book/pipeline/syntax/
+
+- USA United States, Les etats unis, Untied States of America
+- Chili CHile
