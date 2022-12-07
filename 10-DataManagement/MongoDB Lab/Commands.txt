@@ -1,0 +1,11 @@
+/// Adding data using POST
+
+curl -X POST  http://localhost:8080/products/ -H "Content-Type: application/json" -d "{ \"id\":\"1\", \"name\":\"Samsung\", \"description\":\"Samsung Galaxy\" }"
+curl -X POST  http://localhost:8080/products/ -H "Content-Type: application/json" -d "{ \"id\":\"2\", \"name\":\"Apple\", \"description\":\"IPhone 14\" }"
+curl -X POST  http://localhost:8080/products/ -H "Content-Type: application/json" -d "{ \"id\":\"3\", \"name\":\"Blackberry\", \"description\":\"legacy\" }" 
+
+/// Modifying Data 
+curl -X PUT http://localhost:8080/products/2 -H "Content-Type: application/json" -d "{ \"id\":\"2\", \"name\":\"Apple\", \"description\":\"IPhone 16\" }"
+
+/// Delete Data
+curl -X DELETE http://localhost:8080/products/2 
